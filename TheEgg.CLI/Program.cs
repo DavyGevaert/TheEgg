@@ -17,6 +17,7 @@ var output = string.Join(",", positives);
 
 Console.WriteLine(output);
 
+// 7) implementation
 var chicken1 = new Chicken();
 var egg = chicken1.Lay();
 var childChicken = egg.Hatch();
